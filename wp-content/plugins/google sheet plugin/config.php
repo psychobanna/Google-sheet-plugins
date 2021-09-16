@@ -5,64 +5,35 @@ $client = new Google_Client();
 $client->setApplicationName("Google Sheet Plugin");
 $client->setScopes([Google_Service_Sheets::SPREADSHEETS]);
 $client->setAccessType("offline");
-$client->setAuthConfig(wp_upload_dir()['path'].'/credentials.json');
+$client->setAuthConfig(wp_upload_dir()['path'] . '/credentials.json');
 
 $service = new Google_Service_Sheets($client);
 
 
-
-function highlight($spreadsheetId)
+function highlight($spreadsheetId,$service,$start,$send)
 {
-	echo "Done";
-	$myRange = [
-		'sheetId' => 0,
-		'startRowIndex' => 1,
-		'endRowIndex' => 11,
-		'startColumnIndex' => 0,
-		'endColumnIndex' => 4,
-	];
+    for($i=$start;$i<$send;$i++){
+        $range = "E".$i;
+        $value = [["Booked"]];
+        $params = [
+            'valueInputOption' => 'USER_ENTERED'
+        ];
+        $requestBody = new Google_Service_Sheets_ValueRange(["values" => $value]);
+        // $response = $service->spreadsheets_values->append($spreadsheetId, $range, $requestBody,$params);
+        $response = $service->spreadsheets_values->update($spreadsheetId, $range, $requestBody,$params);
+        // echo '<pre>', var_export($response, true), '</pre>', "\n";
+    }
+}   
 
-	$requests = [
-		new Google_Service_Sheets_Request([
-			'addConditionalFormatRule' => [
-				'rule' => [
-					'ranges' => [$myRange],
-					'booleanRule' => [
-						'condition' => [
-							'type' => 'CUSTOM_FORMULA',
-							'values' => [['userEnteredValue' => '=GT($D2,median($D$2:$D$11))']]
-						],
-						'format' => [
-							'textFormat' => ['foregroundColor' => ['red' => 0.8]]
-						]
-					]
-				],
-				'index' => 0
-			]
-		]),
-		new Google_Service_Sheets_Request([
-			'addConditionalFormatRule' => [
-				'rule' => [
-					'ranges' => [$myRange],
-					'booleanRule' => [
-						'condition' => [
-							'type' => 'CUSTOM_FORMULA',
-							'values' => [['userEnteredValue' => '=LT($D2,median($D$2:$D$11))']]
-						],
-						'format' => [
-							'backgroundColor' => ['red' => 1, 'green' => 0.4, 'blue' => 0.4]
-						]
-					]
-				],
-				'index' => 0
-			]
-		])
-	];
+function getdata($service,$spreadsheetID,$start,$end){
+    $range = "A".$start.":Z".$end;
+    
+    
+    $response = $service->spreadsheets_values->get($spreadsheetID, $range);
+    $values = $response->getValues();
 
-	$batchUpdateRequest = new Google_Service_Sheets_BatchUpdateSpreadsheetRequest([
-		'requests' => $requests
-	]);
-	$response = $service->spreadsheets->batchUpdate($spreadsheetId, $batchUpdateRequest);
-	printf("%d cells updated.", count($response->getReplies()));
-	return $response;
+    if (empty($values)) {
+        print "No data found.\n";
+    }
+    return $values;
 }

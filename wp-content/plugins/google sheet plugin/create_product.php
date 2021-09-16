@@ -13,20 +13,6 @@ if ($spreadsheetID == null) {
 }
 
 
-global $wpdb;
-$table_name = $wpdb->prefix . "googlesheetplugin_sheets";
-$data = $wpdb->get_results("SELECT * FROM " . $table_name);
-
-$spreadsheetID = $data[0]->name;
-
-$range = "A:Z";
-
-$response = $service->spreadsheets->get($spreadsheetID);
-
-// $values = $response->getValues();
-
-// echo '<pre>', var_export($response, true), '</pre>', "\n";
-highlight($spreadsheetID);
 
 
 

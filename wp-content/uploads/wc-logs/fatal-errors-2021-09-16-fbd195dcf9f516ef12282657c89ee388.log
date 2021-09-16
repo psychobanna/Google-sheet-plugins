@@ -713,3 +713,407 @@ Stack trace:
 #6 {main}
   thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php on line 82
 
+2021-09-16T18:36:06+00:00 CRITICAL Uncaught Error: Call to a member function batchUpdate() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:65
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 65
+
+2021-09-16T18:38:26+00:00 CRITICAL Uncaught Error: Call to a member function batchUpdate() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:65
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 65
+
+2021-09-16T18:39:15+00:00 CRITICAL Uncaught Error: Call to a member function batchUpdate() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:65
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 65
+
+2021-09-16T18:39:52+00:00 CRITICAL Uncaught Error: Call to a member function batchUpdate() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:65
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 65
+
+2021-09-16T18:40:08+00:00 CRITICAL Uncaught Error: Call to a member function batchUpdate() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:66
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 66
+
+2021-09-16T18:40:40+00:00 CRITICAL Uncaught Error: Call to a member function batchUpdate() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:66
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 66
+
+2021-09-16T18:57:51+00:00 CRITICAL Uncaught Error: Call to a member function update() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:24
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 24
+
+2021-09-16T18:58:22+00:00 CRITICAL Uncaught Error: Call to a member function update() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:24
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 24
+
+2021-09-16T19:02:21+00:00 CRITICAL Uncaught Error: Call to a member function update() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:30
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 30
+
+2021-09-16T19:03:06+00:00 CRITICAL Uncaught Error: Call to a member function update() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:34
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 34
+
+2021-09-16T19:03:26+00:00 CRITICAL Uncaught Error: Call to a member function update() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:34
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 34
+
+2021-09-16T19:04:06+00:00 CRITICAL Uncaught Error: Call to a member function update() on null in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:34
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 34
+
+2021-09-16T19:05:58+00:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+    "errors": [
+      {
+        "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+        "reason": "invalid"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse()
+#1 [internal function]: Google\Http\REST::doExecute()
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array()
+#3 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /var/www/html/wp/den/wp-content/plugins/g in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2021-09-16T19:07:15+00:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+    "errors": [
+      {
+        "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+        "reason": "invalid"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse()
+#1 [internal function]: Google\Http\REST::doExecute()
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array()
+#3 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /var/www/html/wp/den/wp-content/plugins/g in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2021-09-16T19:12:11+00:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "'valueInputOption' is required but not specified",
+    "errors": [
+      {
+        "message": "'valueInputOption' is required but not specified",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse()
+#1 [internal function]: Google\Http\REST::doExecute()
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array()
+#3 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apicli in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2021-09-16T19:14:17+00:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+    "errors": [
+      {
+        "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+        "reason": "invalid"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse()
+#1 [internal function]: Google\Http\REST::doExecute()
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array()
+#3 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /var/www/html/wp/den/wp-content/plugins/g in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2021-09-16T19:14:42+00:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+    "errors": [
+      {
+        "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+        "reason": "invalid"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse()
+#1 [internal function]: Google\Http\REST::doExecute()
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array()
+#3 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /var/www/html/wp/den/wp-content/plugins/g in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2021-09-16T19:16:15+00:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+    "errors": [
+      {
+        "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+        "reason": "invalid"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse()
+#1 [internal function]: Google\Http\REST::doExecute()
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array()
+#3 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /var/www/html/wp/den/wp-content/plugins/g in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2021-09-16T19:18:43+00:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "'valueInputOption' is required but not specified",
+    "errors": [
+      {
+        "message": "'valueInputOption' is required but not specified",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse()
+#1 [internal function]: Google\Http\REST::doExecute()
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array()
+#3 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apicli in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2021-09-16T19:24:08+00:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"\": Root element must be a message.",
+    "errors": [
+      {
+        "message": "Invalid JSON payload received. Unknown name \"\": Root element must be a message.",
+        "reason": "invalid"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse()
+#1 [internal function]: Google\Http\REST::doExecute()
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array()
+#3 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /var/www/html/wp/den/wp-content/plugins/googl in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2021-09-16T19:24:37+00:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+    "errors": [
+      {
+        "message": "Invalid JSON payload received. Unknown name \"value\" at 'data': Cannot find field.",
+        "reason": "invalid"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse()
+#1 [internal function]: Google\Http\REST::doExecute()
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array()
+#3 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /var/www/html/wp/den/wp-content/plugins/g in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2021-09-16T19:25:37+00:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Unable to parse range: updatedRange,E1:E50",
+    "errors": [
+      {
+        "message": "Unable to parse range: updatedRange,E1:E50",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse()
+#1 [internal function]: Google\Http\REST::doExecute()
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array()
+#3 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Clie in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2021-09-16T19:31:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function highlight(), 2 passed in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php on line 29 and exactly 4 expected in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php:15
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php(29): highlight()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php on line 15
+
+2021-09-16T19:34:39+00:00 CRITICAL Uncaught Error: Call to undefined method Google\Service\Sheets\Spreadsheet::getValues() in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php:26
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include()
+#1 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#5 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php on line 26
+
+2021-09-16T19:34:45+00:00 CRITICAL Uncaught Error: Call to undefined method Google\Service\Sheets\Spreadsheet::getValues() in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php:26
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(469): include()
+#1 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): product_manage()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#3 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#4 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#5 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/create_product.php on line 26
+
+2021-09-16T19:56:46+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on string in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php:44
+Stack trace:
+#0 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): google_sheet_plugin_checkout()
+#1 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /var/www/html/wp/den/wp-content/plugins/woocommerce/includes/class-wc-post-types.php(491): do_action()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): WC_Post_Types::register_post_types()
+#5 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#6 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#7 /var/www/html/wp/den/wp-settings.php(578): do_action()
+#8 /var/www/html/wp/den/wp-config.php(99): require_once('/var/www/html/w...')
+#9 /var/www/html/wp/den/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp/den/wp-blog-header.php in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php on line 44
+
+2021-09-16T19:56:50+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on string in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php:44
+Stack trace:
+#0 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): google_sheet_plugin_checkout()
+#1 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /var/www/html/wp/den/wp-content/plugins/woocommerce/includes/class-wc-post-types.php(491): do_action()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): WC_Post_Types::register_post_types()
+#5 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#6 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#7 /var/www/html/wp/den/wp-settings.php(578): do_action()
+#8 /var/www/html/wp/den/wp-config.php(99): require_once('/var/www/html/w...')
+#9 /var/www/html/wp/den/wp-load.php(50): require_once('/var/www/html/w...')
+#10 /var/www/html/wp/den/wp-blog-header.php in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php on line 44
+

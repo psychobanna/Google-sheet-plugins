@@ -32,16 +32,69 @@ add_action('woocommerce_after_register_post_type', 'google_sheet_plugin_checkout
 
 function google_sheet_plugin_checkout()
 {
-    if(isset($_GET['key'])){
+    include("config.php");
+    if (isset($_GET['key'])) {
         $order =  $_GET['key'];
         $orderId = wc_get_order_id_by_order_key($order);
-        $orders = new WC_Order( $orderId );
+        $orders = new WC_Order($orderId);
 
-        print_r($orders->get_item_count());
+        global $wpdb;
+        $table_name = $wpdb->prefix . "googlesheetplugin_sheets";
+        $data = $wpdb->get_results("SELECT * FROM " . $table_name);
 
-       
+        $spreadsheetID = $data[0]->name;
+
+        $range = "A:Z";
+
+        $response = $service->spreadsheets_values->get($spreadsheetID, $range);
+
+        $values = $response->getValues();
+
+        if (empty($values)) {
+            print "No data found.\n";
+        } else {
+            $totalcount = count($values);
+            $max = 0;
+            $bookedcount = 0;
+            foreach ($values as $record) {
+                if ($max < count($record) - 1) {
+                    $max = count($record) - 1;
+                }
+                if ($record[$max] == "Booked") {
+                    // echo "Booked";
+                    $bookedcount = $bookedcount + 1;
+                }
+            }
+            
+            $totalpurchase = $orders->get_item_count();
+            
+            if ($orders->get_status() == "processing") {
+            $records = getdata($service, $spreadsheetID, $bookedcount + 1, $totalpurchase + $bookedcount + 1);
+
+            $table = '<table>';
+            foreach ($records as $recordkey1 => $recordvalue1) {
+                $table .=  '<tr>';
+                foreach ($recordvalue1 as $recordkey2 => $recordvalue2) {
+
+                    $table .=  '<td>' . $recordvalue2 . '</td>';
+                }
+                $table .= '</tr>';
+            }
+            $table .= '</table>';
+
+            
+                
+                echo $table;
+                if (wp_mail($orders->get_billing_email(), "Email send", $table)) {
+                    echo "EMail sent";
+                } else {
+                    echo "EMail not sent";
+                }
+                $orders->update_status("wc-completed");
+                print_r(highlight($spreadsheetID, $service, $bookedcount + 1, $totalpurchase + $bookedcount + 1));
+            }
+        }
     }
-
 }
 
 add_action('admin_menu', 'google_sheet_plugin');
