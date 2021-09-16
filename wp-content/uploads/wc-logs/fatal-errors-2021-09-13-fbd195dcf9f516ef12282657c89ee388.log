@@ -1,0 +1,306 @@
+2021-09-13T00:34:25+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='.:/usr/share/php') in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/composer/autoload_real.php on line 69
+
+2021-09-13T00:56:50+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(104): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T00:58:53+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(109): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T00:59:51+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(109): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:01:47+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(109): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:02:35+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(109): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:02:49+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(109): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:07:40+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(113): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:08:51+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(113): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:10:17+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(113): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:10:57+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(113): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:11:01+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(66): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(190): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-13T01:11:06+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(104): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-13T01:11:07+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(66): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(190): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-13T01:12:14+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(65): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(190): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-13T01:12:17+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(65): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(190): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-13T01:12:32+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(65): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(190): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-13T01:12:44+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(65): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(190): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-13T01:12:51+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(65): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(190): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-13T01:16:06+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(113): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:16:07+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(113): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:16:30+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(113): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:16:32+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(113): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:16:46+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(113): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:17:35+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(117): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T01:18:11+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(117): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T13:39:24+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(117): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-13T13:39:56+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(117): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+

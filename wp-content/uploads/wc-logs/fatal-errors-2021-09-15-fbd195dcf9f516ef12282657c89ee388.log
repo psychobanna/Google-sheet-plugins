@@ -1,0 +1,44 @@
+2021-09-15T17:36:15+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(117): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-15T17:36:41+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(117): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-15T17:38:39+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(117): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+
+2021-09-15T17:50:48+00:00 CRITICAL Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php:171
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(235): Google\Service\Resource->call()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(117): Google\Service\Sheets\Resource\SpreadsheetsValues->get()
+#2 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): crud_data()
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#5 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Service/Resource.php on line 171
+

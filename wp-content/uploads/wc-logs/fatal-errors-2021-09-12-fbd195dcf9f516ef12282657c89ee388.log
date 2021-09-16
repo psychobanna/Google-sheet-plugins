@@ -1,0 +1,96 @@
+2021-09-12T23:15:38+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(47): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(82): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-12T23:15:44+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(47): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(82): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-12T23:16:25+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(48): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(82): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-12T23:16:35+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(48): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(82): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-12T23:16:59+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(48): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(82): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-12T23:18:03+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(49): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(82): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-12T23:20:56+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(49): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(82): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
+2021-09-12T23:21:03+00:00 CRITICAL Uncaught LogicException: invalid json for auth config in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php:966
+Stack trace:
+#0 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/config.php(8): Google\Client->setAuthConfig()
+#1 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/authentication.php(49): include('/var/www/html/w...')
+#2 /var/www/html/wp/den/wp-content/plugins/google sheet plugin/index.php(82): require('/var/www/html/w...')
+#3 /var/www/html/wp/den/wp-includes/class-wp-hook.php(303): authentication()
+#4 /var/www/html/wp/den/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/html/wp/den/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/html/wp/den/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /var/www/html/wp/den/wp-content/plugins/google sheet plugin/vendor/google/apiclient/src/Client.php on line 966
+
